@@ -15,11 +15,14 @@ public class Locators extends Base {
 	driver.findElement(By.partialLinkText("Simple Form"));
 	driver.findElement(By.cssSelector("button[id='button-one']"));
 	driver.findElement(By.cssSelector("div[class='header-top']"));
-	
 	driver.findElement(By.xpath("//button[@id='button-one']"));
 	driver.findElement(By.xpath("//input[@id='value-a']"));
 	driver.findElement(By.xpath("//button[text()='Show Message']"));
 	driver.findElement(By.xpath("//button[starts-with(text(),'Show')]"));
+	driver.findElement(By.xpath("//input[@id='value-a']"));
+	driver.findElement(By.xpath("//title[text()='Obsqura Testing']"));
+	driver.findElement(By.xpath("//title[starts-with(text(),'Obsqura')]"));
+	
 	}
 
 	public static void main(String[] args) {
